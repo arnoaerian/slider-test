@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.slider-header h2,
+.slider-header p {
+    text-transform: uppercase;
+}
+
+.slider-header h2 {
+    margin-top: 5px;
+}
+
+.slider-header p {
+    margin-bottom: 5px;
+}
+
+.slick-initialized .slick-slide {
+    height: 200px;
+}
