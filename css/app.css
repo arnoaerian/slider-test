@@ -20,3 +20,21 @@ body {
 :focus {
     outline: 0;
 }
+
+.main-slider h3 {
+    background-size: cover;
+}
+
+.slider-for h3 {
+    line-height: 200px;
+}
+
+.slider-for h3 a {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #262626;
+}
+
+.slick-slider {
+    margin: 0px auto 20px;
+}
