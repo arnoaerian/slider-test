@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+    color: #262626;
+}
+
+.slider-header h2,
+.slider-header p {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.slider-header h2 {
+    margin-top: 5px;
+}
+
+.slider-header p {
+    margin-bottom: 5px;
+}
+
+:focus {
+    outline: 0;
+}
