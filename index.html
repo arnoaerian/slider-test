@@ -79,7 +79,14 @@ $(document).ready(function(){
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-
+<script type="text/javascript">
+    var resized = function () {
+        console.log('resizing');
+        document.body.style.width = window.innerWidth;
+    };
+    document.body.addEventListener('resize', resized);
+    resize();
+</script>
 <script type="text/javascript">
     $(document).ready(function(){
         // $('.your-class').slick({
