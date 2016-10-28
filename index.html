@@ -82,7 +82,7 @@ $(document).ready(function(){
 <script type="text/javascript">
     var resized = function () {
         console.log('resizing',window.innerWidth);
-        document.body.style.width = window.innerWidth;
+        document.body.style.width = window.innerWidth + 'px';
     };
     window.addEventListener('resize', resized);
     resized();
