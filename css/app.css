@@ -21,15 +21,21 @@ body {
     outline: 0;
 }
 
-.main-slider h3 {
+.main-slider h3,
+.main-slider .slide 
+{
     background-size: cover;
 }
 
-.slider-for h3 {
+.slider-for h3,
+.slider-for .slide
+{
     line-height: 200px;
 }
 
-.slider-for h3 a {
+.slider-for h3 a,
+.slider-for .slide a
+{
     background-color: #ffffff;
     padding: 10px;
     color: #262626;
